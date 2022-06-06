@@ -1,0 +1,35 @@
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+#memberships {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.membership {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#basic {
+  background-color: cornsilk;
+}
+
+#standart {
+  background-color: bisque;
+}
+
+#premium {
+  background-color: wheat;
+}
+
+.membership:hover {
+  cursor: pointer;
+}
